@@ -4,8 +4,7 @@
 
 <h2 align="center">An all-purpose modding tool for <strong>Project ZERO / Fatal Frame</strong></h2>
 
-ZeroEditor is a unified toolkit for extracting, editing, and rebuilding data for the **Project ZERO / Fatal Frame** trilogy on PlayStation 2.  
-It provides powerful editors, extractors, and viewers for game files, archives, models, images, audio, and more — all through a user-friendly interface.
+ZeroEditor is a unified toolkit for extracting, editing, and rebuilding data for the **Project ZERO / Fatal Frame** trilogy on PlayStation 2. It provides powerful editors, extractors, and viewers for game files, archives, models, images, audio, and more — all through a user-friendly interface.
 
 ### ZeroEditor is still in active development and may contain bugs or missing features.
 

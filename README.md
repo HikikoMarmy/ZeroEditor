@@ -33,8 +33,8 @@ ZeroEditor is a unified toolkit for extracting, editing, and rebuilding data for
 |                                       | Debug              | PS2      | Yes       |
 |                                       | Prototype          | PS2      | Yes       |
 | **Fatal Frame III / Project ZERO 3**  | EU                 | PS2      | Yes       |
-|                                       | US                 | PS2      | Yes       |
-|                                       | JP                 | PS2      | Yes       |
+|                                       | US                 | PS2      | Untested       |
+|                                       | JP                 | PS2      | Untested       |
 |                                       | Prototype (Aug)    | PS2      | Yes       |
 |                                       | Prototype (Sep)    | PS2      | Yes       |
 

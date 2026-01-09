@@ -57,7 +57,7 @@ namespace ZeroEditor.Archive.PAK
 				if( end < dataOff || end > s.Length )
 					throw new EndOfStreamException( $"pak: entry {i} data past EOF or negative." );
 
-				string ext = FileTypeGuesser.GuessFromStream( s, dataOff, 64 );
+				string ext = FileTyper.GuessFromStream( s, dataOff, 64 );
 
 				entries.Add( new PakEntry
 				{

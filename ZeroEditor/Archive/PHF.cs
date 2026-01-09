@@ -201,7 +201,7 @@ namespace ZeroEditor.Archive.PHF
 
 		private static string GuessExtAt( Stream s, long pos, int maxPeek )
 		{
-			return FileTypeGuesser.GuessFromStream( s, pos, (uint)Math.Clamp( maxPeek, 8, 128 ) );
+			return FileTyper.GuessFromStream( s, pos, (uint)Math.Clamp( maxPeek, 8, 128 ) );
 		}
 
 		private static string DecodeZAscii( ReadOnlySpan<byte> raw )

@@ -301,7 +301,7 @@ namespace ZeroEditor.Archive.PK4
 
 		private static string GuessExtAt( Stream s, long pos, int maxPeek, List<string> pathSegments )
 		{
-			string ext = FileTypeGuesser.GuessFromStream( s, pos, (uint)Math.Clamp( maxPeek, 8, 128 ) );
+			string ext = FileTyper.GuessFromStream( s, pos, (uint)Math.Clamp( maxPeek, 8, 128 ) );
 			if( ext != ".bin" )
 				return ext;
 

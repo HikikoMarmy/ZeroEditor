@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ZeroEditor.Archive
 {
-	public static class FileTypeGuesser
+	public static class FileTyper
 	{
 		private const uint MAGIC_PK4 = 0x00344B50;
 		private const uint MAGIC_PHF = 0x00666870;

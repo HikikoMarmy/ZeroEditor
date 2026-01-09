@@ -151,7 +151,7 @@ namespace ZeroEditor.Archive.PK2
 					return false;
 
 				int physSize = checked((int)( end - start ));
-				string ext = ZeroEditor.Archive.FileTypeGuesser.GuessFromStream( s, start, 64 );
+				string ext = ZeroEditor.Archive.FileTyper.GuessFromStream( s, start, 64 );
 
 				entries.Add( new Pk2Entry
 				{
@@ -222,7 +222,7 @@ namespace ZeroEditor.Archive.PK2
 					}
 				}
 
-				string ext = ZeroEditor.Archive.FileTypeGuesser.GuessFromStream( s, dataOffset, 64 );
+				string ext = ZeroEditor.Archive.FileTyper.GuessFromStream( s, dataOffset, 64 );
 
 				entries.Add( new Pk2Entry
 				{

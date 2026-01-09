@@ -10,13 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Zero1\Editors\Elf\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Be.Windows.Forms.HexBox.Net5" Version="1.8.0" />
     <PackageReference Include="SharpGLTF.Core" Version="1.0.5" />
     <PackageReference Include="SharpGLTF.Toolkit" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Zero2\Editors\Elf\ElfEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Zero2\Editors\Elf\EneDatEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Zero1\Editors\MsnMap\Editor\MsnMapEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

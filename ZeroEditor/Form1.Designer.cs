@@ -62,7 +62,7 @@
 			// 
 			openToolStripMenuItem.Name = "openToolStripMenuItem";
 			openToolStripMenuItem.Size = new Size( 139, 22 );
-			openToolStripMenuItem.Text = "Open Folder";
+			openToolStripMenuItem.Text = "Open Project";
 			openToolStripMenuItem.Click +=  openToolStripMenuItem_Click ;
 			// 
 			// exitToolStripMenuItem
